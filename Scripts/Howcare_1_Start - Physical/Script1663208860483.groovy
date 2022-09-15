@@ -31,11 +31,11 @@ Mobile.checkElement(findTestObject('Launch/android.widget.ImageView iv_checkbox_
 
 Mobile.tap(findTestObject('Launch/android.widget.Button - 6_Agree_Self certification'), 0)
 
-Mobile.setText(findTestObject('Launch/android.widget.EditText 7_name input'), '최성호', 0)
+Mobile.setText(findTestObject('Launch/android.widget.EditText - input name'), '최성호', 0)
 
-Mobile.setText(findTestObject('Launch/android.widget.EditText 8_age_year_input'), '19810126', 0)
+Mobile.setText(findTestObject('Launch/android.widget.EditText - input birth'), '19810126', 0)
 
-Mobile.setText(findTestObject('Launch/android.widget.EditText 9_phone number'), '01030973593', 0)
+Mobile.setText(findTestObject('Launch/android.widget.EditText - input phone number'), '01030973593', 0)
 
 Mobile.tap(findTestObject('Launch/android.widget.Button - 9_Request authentication result'), 0)
 
@@ -49,7 +49,7 @@ Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 2'), 0)
 
 Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 5'), 0)
 
-Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 9'), 0)
+Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 8'), 0)
 
 Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 1'), 0)
 
@@ -61,7 +61,13 @@ Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 2'), 0)
 
 Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 5'), 0)
 
-Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 9'), 0)
+Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 8'), 0)
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('GNB/android.widget.Button - gnb2'), 0)
+
+Mobile.tap(findTestObject('GNB/android.widget.Button - gnb3'), 0)
+
+Mobile.tap(findTestObject('GNB/android.widget.Button - gnb4'), 0)
+
+Mobile.tap(findTestObject('GNB/android.widget.Button - gnb5'), 0)
 

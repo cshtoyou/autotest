@@ -19,7 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.gchc.combination')
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText - input name'), '최성호', 0)
+Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 1'), 0)
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 4'), 0)
+
+Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 7'), 0)
+
+Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 2'), 0)
+
+Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 5'), 0)
+
+Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 8'), 0)
+
+Mobile.tap(findTestObject('GNB/android.widget.Button - gnb2'), 0)
+
+Mobile.tap(findTestObject('GNB/android.widget.Button - gnb3'), 0)
+
+Mobile.tap(findTestObject('GNB/android.widget.Button - gnb4'), 0)
+
+Mobile.tap(findTestObject('GNB/android.widget.Button - gnb5'), 0)
+
+Mobile.tap(findTestObject('GNB/android.widget.Button - alarm'), 0)
+
+Mobile.pressBack()
 

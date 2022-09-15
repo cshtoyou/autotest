@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Howcare_1_Start - physical</name>
+   <name>Howcare_2_Start - Physical</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6b08b3b5-dd68-4c7c-9806-40365e41f7ed</testCaseGuid>
+   <testCaseGuid>650d8818-c049-4a7f-810e-5a6d6349a91a</testCaseGuid>
 </TestCaseEntity>
