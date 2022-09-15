@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.gchc.combination')
 
-Mobile.setText(findTestObject('Object Repository/android.widget.EditText - input name'), '최성호', 0)
+Mobile.setText(findTestObject('null'), '최성호', 0)
 
 Mobile.closeApplication()
 
