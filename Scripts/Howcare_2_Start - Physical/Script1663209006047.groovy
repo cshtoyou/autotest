@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.gchc.combination')
 
+Mobile.tap(findTestObject('Launch/android.widget.Button - 1_Stg_login_Tab'), 0)
+
 Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 1'), 0)
 
 Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 4'), 0)
