@@ -75,3 +75,5 @@ Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 5'), 0)
 
 Mobile.tap(findTestObject('Launch/Pass/android.widget.Button - 8'), 0)
 
+Mobile.closeApplication()
+
